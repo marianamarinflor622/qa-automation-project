@@ -1,0 +1,25 @@
+import { Page, expect, Locator } from '@playwright/test';
+
+export default class SearchResultsPage {
+  private readonly page: Page;
+  private readonly bookLinks: Locator;     // ← ahora apuntamos a <a>
+
+  constructor(page: Page) {
+    this.page      = page;
+    this.bookLinks = page.getByRole('link', { name: /book now/i });
+  }
+
+  /** Espera a que exista al menos `min` enlace “Book now” */
+  async expectRooms(min = 1): Promise<void> {
+    // Esperar hasta 10 s a que aparezcan los resultados
+    await this.page.waitForSelector('a:has-text("Book now")', { timeout: 10000 });
+    const total = await this.bookLinks.count();
+    await expect(total).toBeGreaterThanOrEqual(min);
+  }
+
+  /** Clic en “Book now” del índice indicado */
+  async bookRoomAt(index = 0): Promise<void> {
+    await this.bookLinks.nth(index).click();
+    await this.page.waitForLoadState('networkidle');
+  }
+}
