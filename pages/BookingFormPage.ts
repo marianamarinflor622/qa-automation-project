@@ -10,7 +10,6 @@ export default class BookingFormPage {
 
   constructor(page: Page) {
     this.page      = page;
-    // Seleccionar por placeholder visible
     this.firstName = page.getByPlaceholder(/first name/i);
     this.lastName  = page.getByPlaceholder(/last name/i);
     this.email     = page.getByPlaceholder(/email/i);
