@@ -1,0 +1,6 @@
+{
+  "testCase": "Fechas pasadas",
+  "checkin": "2024-12-01",
+  "checkout": "2024-12-05",
+  "expectedAvailable": false
+}

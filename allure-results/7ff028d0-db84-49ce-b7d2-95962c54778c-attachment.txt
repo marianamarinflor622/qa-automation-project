@@ -1,0 +1,3 @@
+✅ Todos los elementos del formulario están presentes y visibles
+✅ Todos los campos aceptan y retienen entrada de datos correctamente
+✅ Botón de envío está habilitado y tiene el texto correcto

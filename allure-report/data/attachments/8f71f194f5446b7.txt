@@ -1,0 +1,9 @@
+=== INSPECCIONANDO ELEMENTOS ESPECÍFICOS ===
+Textareas encontrados: 1
+Textarea 0: placeholder="sin placeholder", name="sin name", id="description", data-testid="ContactDescription"
+Botón #submitContact existe: 0
+Formulario .booking-form existe: 0
+Input Firstname existe: 0
+Input Lastname existe: 0
+Botones .openBooking encontrados: 0
+Calendario .rbc-calendar existe: 0

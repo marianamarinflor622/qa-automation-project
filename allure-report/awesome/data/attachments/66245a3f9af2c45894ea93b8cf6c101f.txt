@@ -1,0 +1,2 @@
+✅ Todos los campos del formulario están presentes
+✅ Todos los data-testid son correctos

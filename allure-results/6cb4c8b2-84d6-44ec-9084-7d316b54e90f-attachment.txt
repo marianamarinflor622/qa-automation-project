@@ -1,0 +1,14 @@
+=== INSPECCIONANDO PÁGINA ===
+Elementos con data-testid Contact: 5
+Sección #contact encontrada: 1
+Campo nombre encontrado: 1
+Campo email encontrado: 1
+Total inputs encontrados: 6
+Input 0: placeholder="sin placeholder", name="sin name", id="sin id", data-testid="sin data-testid"
+Input 1: placeholder="sin placeholder", name="sin name", id="sin id", data-testid="sin data-testid"
+Input 2: placeholder="sin placeholder", name="sin name", id="name", data-testid="ContactName"
+Input 3: placeholder="sin placeholder", name="sin name", id="email", data-testid="ContactEmail"
+Input 4: placeholder="sin placeholder", name="sin name", id="phone", data-testid="ContactPhone"
+Input 5: placeholder="sin placeholder", name="sin name", id="subject", data-testid="ContactSubject"
+Formularios encontrados: 2
+Botones encontrados: 3

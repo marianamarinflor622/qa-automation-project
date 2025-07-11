@@ -1,0 +1,4 @@
+Request Failed: https://www.mwtestconsultancy.co.uk/img/room1.jpg/ - NS_BINDING_ABORTED
+✅ Todos los elementos del formulario están presentes y visibles
+✅ Todos los campos aceptan y retienen entrada de datos correctamente
+✅ Botón de envío está habilitado y tiene el texto correcto

@@ -1,0 +1,19 @@
+=== BUSCANDO ELEMENTOS REALES ===
+Total botones: 3
+Botón 0: texto="sin texto", id="sin id", class="navbar-toggler"
+Botón 1: texto="Check Availability", id="sin id", class="btn btn-primary w-100 py-2"
+Botón 2: texto="Submit", id="sin id", class="btn btn-primary"
+
+Elementos relacionados con rooms: 61
+Elementos relacionados con booking: 45
+
+Secciones encontradas: 8
+Sección 0: id="root-container", class="sin class"
+Sección 1: id="navbarNav", class="collapse navbar-collapse"
+Sección 3: id="booking", class="py-3"
+Sección 4: id="rooms", class="section-divider"
+Sección 5: id="location", class="section-divider bg-light py-5"
+Sección 6: id="contact", class="py-5"
+Sección 7: id="__next-route-announcer__", class="sin class"
+
+Botones después del scroll: 3

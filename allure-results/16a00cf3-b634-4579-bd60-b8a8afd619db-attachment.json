@@ -1,0 +1,6 @@
+{
+  "testCase": "Misma fecha entrada y salida",
+  "checkin": "2025-08-15",
+  "checkout": "2025-08-15",
+  "expectedAvailable": false
+}

@@ -1,0 +1,1 @@
+✅ Todos los campos aceptan entrada de texto correctamente
